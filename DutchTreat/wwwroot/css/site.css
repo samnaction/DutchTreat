@@ -44,8 +44,33 @@ ul.product-props li {
 }
 
 .product-info img {
-    margin:3px;
+    margin-right:3px;
     float:left;
     border:1px solid black;
     max-width:150px;
+}
+
+#loginToggle {
+    cursor:pointer;
+}
+
+.popup-form{
+    padding: 5px;
+    border: 3px outset gray;
+    
+    display:inline-block;
+}
+
+.popup-form input {
+    width:200px;
+}
+
+.popup-form label {
+    width:150px;
+    display:inline-block;
+}
+
+.popup-form input[type=checkbox], input[type=submit]
+{
+    width:auto;
 }
